@@ -3,8 +3,8 @@ import { Animated, Text, TouchableHighlight, TouchableWithoutFeedback } from "re
 import styles from "../styles/styles";
 
 interface AnimatedButtonProps {
-    action: 'higher' | 'lower'; // Si 'action' peut être 'higher' ou 'lower'
-    onPress: () => void;       // Le type de la fonction onPress
+    action: 'higher' | 'lower'; 
+    onPress: () => void;       
 }
 
 export default function AnimatedButton({ action, onPress }: AnimatedButtonProps) {
